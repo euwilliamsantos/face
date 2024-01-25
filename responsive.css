@@ -1,0 +1,122 @@
+@media screen and (max-width:375px) {
+
+    .input {
+        display: flex;
+        justify-content: center;
+    }
+
+    .info-pai {
+        position: absolute;
+        top: 2rem;
+        right: 0rem;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .formulario-filho {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 13rem;
+
+    }
+
+    .paragrafo {
+        position: absolute;
+        bottom: 14%;
+    }
+
+}
+
+
+@media screen and (max-width:600px) {
+
+    .input {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .info-pai {
+        display: flex;
+        position: absolute;
+        top: 2rem;
+        left: 69px;
+        margin: 0px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .formulario-filho {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 13rem;
+
+
+
+
+
+
+    }
+
+    .paragrafo {
+        position: absolute;
+        bottom: 14%;
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .formulario-filho {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20rem;
+
+    }
+
+    .paragrafo {
+        position: absolute;
+        bottom: 14%;
+    }
+
+    .info-pai {
+        position: absolute;
+        top: 2rem;
+        right: 28rem;
+        margin: 0px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .formulario-filho {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 19rem;
+
+    }
+
+    .paragrafo {
+        position: absolute;
+        bottom: 14%;
+    }
+
+    .info-pai {
+        position: absolute;
+        top: 2rem;
+        right: 20rem;
+        margin: 30px;
+        gap: 2rem;
+        text-align: center;
+    }
+
+
+}
